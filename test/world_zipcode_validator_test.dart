@@ -1,12 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:world_zipcode_validator/world_zipcode_validator.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  test('validate zipcode for a country', () {
+    String countryAlphaCode = 'us';
+    String zipcode = '12345';
+
+    expect(WorldZipcodeValidator.isValid(countryAlphaCode, zipcode), true);
   });
 }

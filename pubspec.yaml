@@ -1,7 +1,7 @@
 name: world_zipcode_validator
 description: A Dart package for validating zipcodes based on country codes.
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/darshitInfyom/world_zipcode_validator.git
 license: MIT
 
 environment:
